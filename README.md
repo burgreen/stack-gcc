@@ -1,7 +1,7 @@
 stack-gcc
 =========
 
-Files needed to build a gcc compiler in Spack.
+Files needed to build a gcc compiler, binutils, and curl via Spack.
 
 Installation of files
 ---------------------
