@@ -15,9 +15,9 @@ tar xfv stack-gcc-scripts.tar  -C <stack_root>
 Optional installation of a gcc compiler source tarballs
 ----------------------------------------------------------
 
-If the node that you are installing gcc does not have internet access, you can download all needed tarballs.
+If the target machine that you wish to install gcc does not have internet access, you can download all needed tarballs and transfer them to the target machine.
 
-This can be done per directions in [stack-gcc-tarballs](https://github.com/burgreen/stack-gcc-tarballs).
+The required tarballs are located at [stack-gcc-tarballs](https://github.com/burgreen/stack-gcc-tarballs).
 
 Installation of gcc compiler software stack
 --------------------------------------
