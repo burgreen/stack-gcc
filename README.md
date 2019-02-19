@@ -10,6 +10,7 @@ Create a root software stack directory `<stack_root>` per directions in [stack-s
 
 ```
 tar xfv stack-gcc-<ver>-scripts.tar  -C <stack_root>
+tar xfv stack-gcc-<ver>-lib.tar      -C <stack_root>
 ```
 
 Optional installation of a gcc compiler source tarballs
