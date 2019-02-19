@@ -31,4 +31,4 @@ source 1-setup-spack.sh
 ./scripts/install-compiler-gcc.sh
 ```
 
-This will install around 33 software packages, including 8 packages installed by the new gcc compiler. This can be confirmed via executing `spack find`.
+This will install 32 software packages, including 8 packages installed by the new spack-gcc compiler. This can be confirmed via executing `spack find`.
