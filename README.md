@@ -13,12 +13,12 @@ tar xfv stack-gcc-<ver>-scripts.tar  -C <stack_root>
 tar xfv stack-gcc-<ver>-lib.tar      -C <stack_root>
 ```
 
-Optional installation of a gcc compiler source tarballs
+Optional use of gcc compiler source tarballs
 ----------------------------------------------------------
 
-If there is no internet access on the target machine that you wish to install gcc, you can download all needed tarballs elsewhere and manually transfer them to the target machine.
+If there is no internet access on the target machine that you wish to install gcc, you need to secure the needed tarballs and manually transfer them to the target machine.
 
-The required tarballs and instructions are located at [stack-gcc-tarballs](https://github.com/burgreen/stack-gcc-tarballs).
+If you have this need, see [tarballs-gcc](https://github.com/burgreen/tarballs-gcc).
 
 Installation of gcc compiler software stack
 -------------------------------------------
@@ -32,3 +32,5 @@ source 1-setup-spack.sh
 ```
 
 This will install 32 software packages, including 8 packages installed by the new spack-gcc compiler. This can be confirmed via executing `spack find`.
+
+version: 2019.02.19
