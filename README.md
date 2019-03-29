@@ -9,8 +9,7 @@ Installation of files
 Create a root software stack directory `<stack_root>` per directions in [stack-spack](https://github.com/burgreen/stack-spack).
 
 ```
-tar xfv stack-gcc-<ver>-scripts.tar  -C <stack_root>
-tar xfv stack-gcc-<ver>-lib.tar      -C <stack_root>
+./install-gcc.sh
 ```
 
 Optional use of gcc compiler source tarballs
@@ -33,4 +32,4 @@ source 1-setup-spack.sh
 
 This will install 32 software packages, including 8 packages installed by the new spack-gcc compiler. This can be confirmed via executing `spack find`.
 
-version: 2019.02.19
+version: 2019.03.29
