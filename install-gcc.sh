@@ -28,10 +28,15 @@ scripts=stack-gcc-7.3.0-scripts.tar
 # 1. unarchive tarballs
 #--------------------------------------------
 
-echo Installing other tarballs
+echo Installing lib and scripts tarballs
+
+cd $1
 
 tar xf $current/$lib
 tar xf $current/$scripts
+
+echo 
+echo Follow github.com/burgreen/stack-gcc for additional instructions.
 
 set +e
 #set +x 
