@@ -9,8 +9,15 @@ Installation of files
 Create a root software stack directory `<stack_root>` per directions in [stack-spack](https://github.com/burgreen/stack-spack).
 
 ```
-./install-gcc.sh
+./install-gcc.sh <stack-root>
 ```
+
+where `<stack_root>` is root directory of the desired software stack. For example:
+
+```
+$ ./install-gcc.sh ../stack-2019.03
+```
+
 
 Optional use of gcc compiler source tarballs
 ----------------------------------------------------------
